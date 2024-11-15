@@ -1,0 +1,247 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f7fa; /* Light background color for a clean look */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif; /* Use Poppins for headers */
+}
+
+.card:hover {
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.table-row:hover {
+  background-color: #e0e0e0;
+}
+/* General Styling */
+body {
+    background: linear-gradient(to bottom, #f4f8fc, #eaf0f5);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #ffffff, #f8f9fb);
+}
+
+.leaderboard-row {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+}
+
+.highlighted {
+    border: 2px solid #ffd700;
+}
+
+.metric-box {
+    background: #4b6cb7;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.metric-box h6, .metric-box h4, .metric-box p {
+    margin: 0;
+    color: #fff;
+}
+
+/* ===========new================== */
+/* Card Container for Top 3 Traders */
+.top-trader-card {
+  background: linear-gradient(135deg, #ffffff, #f8f9fb);
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+/* Avatar Styling */
+.top-trader-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto 0.5rem;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Rank Badge Styling */
+.rank-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #ffd700; /* Gold color */
+  color: #fff;
+  border-radius: 50%;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* Text Styling within Card */
+.top-trader-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #4B6CB7;
+}
+
+.top-trader-subtext {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.top-trader-metric {
+  font-weight: 600;
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+
+
+/* Metric Box Container */
+.metric-box {
+  background: #4b6cb7;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.metric-box-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Value Styling */
+.metric-box-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+/* Name Styling */
+.metric-box-name {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+
+
+/* Table Container */
+.leaderboard-table {
+  width: 100%;
+  margin-top: 1.5rem;
+  border-collapse: collapse;
+}
+
+/* Table Header Styling */
+.leaderboard-header {
+  background-color: #eaf0f5;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Table Row Styling */
+.leaderboard-row {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease;
+}
+
+/* Row Hover Effect */
+.leaderboard-row:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Row Content */
+.leaderboard-row .cell {
+  padding: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Highlighted Row (for 1st, 2nd, 3rd Place) */
+.highlighted {
+  border: 2px solid #ffd700; /* Gold border for highlighted */
+}
+
+/* Rank Column Styling */
+.leaderboard-rank {
+  font-weight: bold;
+  color: #ffd700;
+}
+
+/* Name Column Styling */
+.leaderboard-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #4B6CB7;
+}
+
+/* Badge and Icon Styling */
+.icon-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4b6cb7;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+}
+
+
+
+
+
+/* General Body Styling */
+body {
+  background: linear-gradient(to bottom, #f4f8fc, #eaf0f5);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Button Styling */
+.profile-button {
+  background-color: #4b6cb7;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.profile-button:hover {
+  background-color: #3a57a6;
+}
